@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141B93EF35E34E7D9448648D9657F7E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
+		1930DBF252AF1BFE18387A1525267305 /* Pods-Niot-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7F3DDB767933EA58C45ABE60F79717 /* Pods-Niot-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26FD8F2B9E3A26D1A16ACCE65FDFFFB8 /* Pods-Niot-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4ED799F802DFFDB9CE19C3B33936C7B /* Pods-Niot-tvOS-dummy.m */; };
+		3202247D0F37F2FAFBF51E899C6785BB /* Pods-Niot-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7709F09FCC5597A7E0F1F12454B3B0EC /* Pods-Niot-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3614F3398FE9BF23E1CD8EA52F3C808A /* Pods-Niot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F02FF7DE5EF71B37C934FDCCE58AC1C /* Pods-Niot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385FFEA430364C45A8B7783506B5417E /* Pods-Niot-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 106757F7AFE26F0D3240ED4B93B4172D /* Pods-Niot-tvOSTests-dummy.m */; };
+		466BAEBA01990D72E7B414AF464E2BC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
+		50E0CBACA4A883DD5EAAB2082AFA9502 /* Pods-NiotTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBF8401C07A748FB64222A79569E54C /* Pods-NiotTests-dummy.m */; };
+		62DA943A5C4D8736CA05E731F508FC59 /* Pods-Niot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB954B73FF84497EAC6DBE454679541 /* Pods-Niot-dummy.m */; };
+		7AC1116A1735439214BD3672EA27317B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */; };
+		BA07DAF4BB2A99AF038929BD3ECDDB51 /* Pods-NiotTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0222DD77CAFBE486D4C151786779BA8 /* Pods-NiotTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC6AD4CA013E47D11FB84B7E6B3AF1CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		918BFAEE6403E737943BFBB5847F21E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA7C54B494555A9E03F18FE064A5DB6B;
+			remoteInfo = "Pods-Niot";
+		};
+		CB74A273EEBD0D00705D278E9B600B1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 756E5E0339A734ACEBA152532B40F67F;
+			remoteInfo = "Pods-Niot-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09682C7882913E2FE72D43415D09395A /* Pods-NiotTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NiotTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		097B75C6679A49B57413F3404D52D459 /* Pods-Niot-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Niot-tvOS.modulemap"; sourceTree = "<group>"; };
+		0A2B5A23072D494CE364AA3225B24D0A /* Pods-Niot-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niot-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		106757F7AFE26F0D3240ED4B93B4172D /* Pods-Niot-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Niot-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		207F7196262D17188DF83BB8FA065EDC /* Pods-Niot-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Niot-acknowledgements.plist"; sourceTree = "<group>"; };
+		24007B834F36C6EB578461252DFEBB5D /* Pods_Niot_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Niot_tvOS.framework; path = "Pods-Niot-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EB5955C70E3268B5AD6F2C2FDD3242 /* Pods-Niot-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Niot-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F02FF7DE5EF71B37C934FDCCE58AC1C /* Pods-Niot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Niot-umbrella.h"; sourceTree = "<group>"; };
+		43328E401A95711B151BE48858D49F63 /* Pods-Niot-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Niot-tvOS-Info.plist"; sourceTree = "<group>"; };
+		4DBF8401C07A748FB64222A79569E54C /* Pods-NiotTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NiotTests-dummy.m"; sourceTree = "<group>"; };
+		4DD893DED1220A5875FAD5AD0A3EEB3A /* Pods-NiotTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NiotTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A818D7A9C66EABB717AC42C4E19D4C6 /* Pods-Niot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niot.debug.xcconfig"; sourceTree = "<group>"; };
+		5B6F4EE0BF0B451DA1B47584E355B5C4 /* Pods-Niot-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niot-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB7D356DF970AB8A617A1FEDC7A9A78 /* Pods-Niot-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Niot-Info.plist"; sourceTree = "<group>"; };
+		6CA2808197076D2E8D66A51CBA29F71B /* Pods-Niot-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niot-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		6CCDBE54B9AA2529C8FF25EE1930FFFB /* Pods_NiotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NiotTests.framework; path = "Pods-NiotTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7709F09FCC5597A7E0F1F12454B3B0EC /* Pods-Niot-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Niot-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		87E438CCFDFD1B1E4A630CE02C2E7826 /* Pods_Niot_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Niot_tvOSTests.framework; path = "Pods-Niot-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB954B73FF84497EAC6DBE454679541 /* Pods-Niot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Niot-dummy.m"; sourceTree = "<group>"; };
+		8FCACB7B4ED7C7D8F751C96E56FAC894 /* Pods-Niot-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Niot-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		9312A6CDC47AA93E8916087D4E819E4E /* Pods-Niot-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niot-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94A03603E33F6CEF1599D3F8AC44ABBD /* Pods-NiotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NiotTests.release.xcconfig"; sourceTree = "<group>"; };
+		975B8FFE83EF3F66ED883EA8125C4604 /* Pods-NiotTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NiotTests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9128F565B113BE76C81AD974A841105 /* Pods-NiotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NiotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB012943588667A20F8551D49371E017 /* Pods-Niot-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Niot-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADB0721606C267C7DE36DC713A9DE3F1 /* Pods-NiotTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NiotTests.modulemap"; sourceTree = "<group>"; };
+		B0222DD77CAFBE486D4C151786779BA8 /* Pods-NiotTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NiotTests-umbrella.h"; sourceTree = "<group>"; };
+		BA7F3DDB767933EA58C45ABE60F79717 /* Pods-Niot-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Niot-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		C736313C862CC71A49F27EBF5C13443D /* Pods-Niot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Niot.release.xcconfig"; sourceTree = "<group>"; };
+		CD1975E61BD849701CBFFCC96C4CFD15 /* Pods-Niot-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Niot-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF7FB1BBA239256576F51CB90429B3A8 /* Pods_Niot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Niot.framework; path = "Pods-Niot.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17B3E9ADE3C7BC59FE875EB3B373C0C /* Pods-Niot-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Niot-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		D9C688D4C5113602148770325D6A4003 /* Pods-Niot-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Niot-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4605C29EAEC060332DB12BBB1915258 /* Pods-Niot-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Niot-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4ED799F802DFFDB9CE19C3B33936C7B /* Pods-Niot-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Niot-tvOS-dummy.m"; sourceTree = "<group>"; };
+		FD854335E0AE1FCEC49DF4BF6F6DC61E /* Pods-Niot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Niot.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4443ECE082320DFCCA4DC941B72F9B16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141B93EF35E34E7D9448648D9657F7E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		595796BF94EBD4D74F2CEE2D794E94E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6AD4CA013E47D11FB84B7E6B3AF1CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C5484F8F68170063DA0DEE4455B122C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466BAEBA01990D72E7B414AF464E2BC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F366380624886040B2726F3CE904DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC1116A1735439214BD3672EA27317B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E90D6EF17B67B923708A12D21FDD048 /* Pods-Niot-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				097B75C6679A49B57413F3404D52D459 /* Pods-Niot-tvOS.modulemap */,
+				D9C688D4C5113602148770325D6A4003 /* Pods-Niot-tvOS-acknowledgements.markdown */,
+				AB012943588667A20F8551D49371E017 /* Pods-Niot-tvOS-acknowledgements.plist */,
+				E4ED799F802DFFDB9CE19C3B33936C7B /* Pods-Niot-tvOS-dummy.m */,
+				43328E401A95711B151BE48858D49F63 /* Pods-Niot-tvOS-Info.plist */,
+				7709F09FCC5597A7E0F1F12454B3B0EC /* Pods-Niot-tvOS-umbrella.h */,
+				5B6F4EE0BF0B451DA1B47584E355B5C4 /* Pods-Niot-tvOS.debug.xcconfig */,
+				6CA2808197076D2E8D66A51CBA29F71B /* Pods-Niot-tvOS.release.xcconfig */,
+			);
+			name = "Pods-Niot-tvOS";
+			path = "Target Support Files/Pods-Niot-tvOS";
+			sourceTree = "<group>";
+		};
+		2E76937D936648CDABE5BB08085A7792 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FB1BBA239256576F51CB90429B3A8 /* Pods_Niot.framework */,
+				24007B834F36C6EB578461252DFEBB5D /* Pods_Niot_tvOS.framework */,
+				87E438CCFDFD1B1E4A630CE02C2E7826 /* Pods_Niot_tvOSTests.framework */,
+				6CCDBE54B9AA2529C8FF25EE1930FFFB /* Pods_NiotTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30BD81D93904C100271F524DDEAD1B32 /* Pods-NiotTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADB0721606C267C7DE36DC713A9DE3F1 /* Pods-NiotTests.modulemap */,
+				09682C7882913E2FE72D43415D09395A /* Pods-NiotTests-acknowledgements.markdown */,
+				4DD893DED1220A5875FAD5AD0A3EEB3A /* Pods-NiotTests-acknowledgements.plist */,
+				4DBF8401C07A748FB64222A79569E54C /* Pods-NiotTests-dummy.m */,
+				975B8FFE83EF3F66ED883EA8125C4604 /* Pods-NiotTests-Info.plist */,
+				B0222DD77CAFBE486D4C151786779BA8 /* Pods-NiotTests-umbrella.h */,
+				A9128F565B113BE76C81AD974A841105 /* Pods-NiotTests.debug.xcconfig */,
+				94A03603E33F6CEF1599D3F8AC44ABBD /* Pods-NiotTests.release.xcconfig */,
+			);
+			name = "Pods-NiotTests";
+			path = "Target Support Files/Pods-NiotTests";
+			sourceTree = "<group>";
+		};
+		6F17277621E113F35640FDC54FC2EEFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F679C9A0E4C8CE37E69B3BA4030F8670 /* Pods-Niot */,
+				1E90D6EF17B67B923708A12D21FDD048 /* Pods-Niot-tvOS */,
+				D5394F6A4FD08E74CAAE41E6500C1AC9 /* Pods-Niot-tvOSTests */,
+				30BD81D93904C100271F524DDEAD1B32 /* Pods-NiotTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BA426A61ECDB18091804837513E216F /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				862ADB3E8E3DC6FD921084C65D936619 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A19B97BA9DB17ACAB60CC4FA3D6A30 /* iOS */,
+				7BA426A61ECDB18091804837513E216F /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0A19B97BA9DB17ACAB60CC4FA3D6A30 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54E1F74047CAE9009037AFF5FCE00AF8 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				2E76937D936648CDABE5BB08085A7792 /* Products */,
+				6F17277621E113F35640FDC54FC2EEFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5394F6A4FD08E74CAAE41E6500C1AC9 /* Pods-Niot-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FCACB7B4ED7C7D8F751C96E56FAC894 /* Pods-Niot-tvOSTests.modulemap */,
+				E4605C29EAEC060332DB12BBB1915258 /* Pods-Niot-tvOSTests-acknowledgements.markdown */,
+				CD1975E61BD849701CBFFCC96C4CFD15 /* Pods-Niot-tvOSTests-acknowledgements.plist */,
+				106757F7AFE26F0D3240ED4B93B4172D /* Pods-Niot-tvOSTests-dummy.m */,
+				D17B3E9ADE3C7BC59FE875EB3B373C0C /* Pods-Niot-tvOSTests-Info.plist */,
+				BA7F3DDB767933EA58C45ABE60F79717 /* Pods-Niot-tvOSTests-umbrella.h */,
+				9312A6CDC47AA93E8916087D4E819E4E /* Pods-Niot-tvOSTests.debug.xcconfig */,
+				0A2B5A23072D494CE364AA3225B24D0A /* Pods-Niot-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-Niot-tvOSTests";
+			path = "Target Support Files/Pods-Niot-tvOSTests";
+			sourceTree = "<group>";
+		};
+		F679C9A0E4C8CE37E69B3BA4030F8670 /* Pods-Niot */ = {
+			isa = PBXGroup;
+			children = (
+				FD854335E0AE1FCEC49DF4BF6F6DC61E /* Pods-Niot.modulemap */,
+				27EB5955C70E3268B5AD6F2C2FDD3242 /* Pods-Niot-acknowledgements.markdown */,
+				207F7196262D17188DF83BB8FA065EDC /* Pods-Niot-acknowledgements.plist */,
+				8BB954B73FF84497EAC6DBE454679541 /* Pods-Niot-dummy.m */,
+				6AB7D356DF970AB8A617A1FEDC7A9A78 /* Pods-Niot-Info.plist */,
+				2F02FF7DE5EF71B37C934FDCCE58AC1C /* Pods-Niot-umbrella.h */,
+				5A818D7A9C66EABB717AC42C4E19D4C6 /* Pods-Niot.debug.xcconfig */,
+				C736313C862CC71A49F27EBF5C13443D /* Pods-Niot.release.xcconfig */,
+			);
+			name = "Pods-Niot";
+			path = "Target Support Files/Pods-Niot";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A9C6E215504290E20DF7EDF633CA299 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3202247D0F37F2FAFBF51E899C6785BB /* Pods-Niot-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9933E11BF10C1F4661806F28E1216C8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3614F3398FE9BF23E1CD8EA52F3C808A /* Pods-Niot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0635F42D421FA475C2C52993C050C0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA07DAF4BB2A99AF038929BD3ECDDB51 /* Pods-NiotTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFC2EB6A0608EED641C20AA444E40FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1930DBF252AF1BFE18387A1525267305 /* Pods-Niot-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		756E5E0339A734ACEBA152532B40F67F /* Pods-Niot-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EE285A655BACB545E7A49A22181DEDD /* Build configuration list for PBXNativeTarget "Pods-Niot-tvOS" */;
+			buildPhases = (
+				1A9C6E215504290E20DF7EDF633CA299 /* Headers */,
+				465A6C8963C8DE56B0EA7F7C34071493 /* Sources */,
+				E8F366380624886040B2726F3CE904DD /* Frameworks */,
+				E65F4C1E0FE895D0125DA4231F71A480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Niot-tvOS";
+			productName = "Pods-Niot-tvOS";
+			productReference = 24007B834F36C6EB578461252DFEBB5D /* Pods_Niot_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA7C54B494555A9E03F18FE064A5DB6B /* Pods-Niot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7202E75F9CC22B5D4E0AFD958245C931 /* Build configuration list for PBXNativeTarget "Pods-Niot" */;
+			buildPhases = (
+				9933E11BF10C1F4661806F28E1216C8A /* Headers */,
+				2E7E98ED8825096DE1EE1EDC5AF7ABE1 /* Sources */,
+				595796BF94EBD4D74F2CEE2D794E94E8 /* Frameworks */,
+				5192E53AEB21016D84CEB32FBBC2AF96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Niot";
+			productName = "Pods-Niot";
+			productReference = CF7FB1BBA239256576F51CB90429B3A8 /* Pods_Niot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4F2505A9D38C85C9FE720B3B8D73A69 /* Pods-NiotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 280819DD87D51E7A615D12728BC7DAF5 /* Build configuration list for PBXNativeTarget "Pods-NiotTests" */;
+			buildPhases = (
+				D0635F42D421FA475C2C52993C050C0F /* Headers */,
+				AAB1A9CB126A6762852594C5E6B0602E /* Sources */,
+				7C5484F8F68170063DA0DEE4455B122C /* Frameworks */,
+				93826C0B9EF7DFEAD593AD0CC41C978D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8656680798656F40B0851B19A1AC8C99 /* PBXTargetDependency */,
+			);
+			name = "Pods-NiotTests";
+			productName = "Pods-NiotTests";
+			productReference = 6CCDBE54B9AA2529C8FF25EE1930FFFB /* Pods_NiotTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB1A643F19B203F606751435D2D74AB1 /* Pods-Niot-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DEC6555804B7746DC613EDECEF4E12 /* Build configuration list for PBXNativeTarget "Pods-Niot-tvOSTests" */;
+			buildPhases = (
+				DBFC2EB6A0608EED641C20AA444E40FC /* Headers */,
+				BCE64F468DAD0B01CC2603E266C8EA17 /* Sources */,
+				4443ECE082320DFCCA4DC941B72F9B16 /* Frameworks */,
+				4C903BBC4652DE1E2ED49329B63326FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A096A6472BB44871729EE2AA2F4B76 /* PBXTargetDependency */,
+			);
+			name = "Pods-Niot-tvOSTests";
+			productName = "Pods-Niot-tvOSTests";
+			productReference = 87E438CCFDFD1B1E4A630CE02C2E7826 /* Pods_Niot_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2E76937D936648CDABE5BB08085A7792 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA7C54B494555A9E03F18FE064A5DB6B /* Pods-Niot */,
+				756E5E0339A734ACEBA152532B40F67F /* Pods-Niot-tvOS */,
+				FB1A643F19B203F606751435D2D74AB1 /* Pods-Niot-tvOSTests */,
+				C4F2505A9D38C85C9FE720B3B8D73A69 /* Pods-NiotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C903BBC4652DE1E2ED49329B63326FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5192E53AEB21016D84CEB32FBBC2AF96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93826C0B9EF7DFEAD593AD0CC41C978D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E65F4C1E0FE895D0125DA4231F71A480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E7E98ED8825096DE1EE1EDC5AF7ABE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DA943A5C4D8736CA05E731F508FC59 /* Pods-Niot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465A6C8963C8DE56B0EA7F7C34071493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FD8F2B9E3A26D1A16ACCE65FDFFFB8 /* Pods-Niot-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB1A9CB126A6762852594C5E6B0602E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E0CBACA4A883DD5EAAB2082AFA9502 /* Pods-NiotTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE64F468DAD0B01CC2603E266C8EA17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385FFEA430364C45A8B7783506B5417E /* Pods-Niot-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A096A6472BB44871729EE2AA2F4B76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Niot-tvOS";
+			target = 756E5E0339A734ACEBA152532B40F67F /* Pods-Niot-tvOS */;
+			targetProxy = CB74A273EEBD0D00705D278E9B600B1E /* PBXContainerItemProxy */;
+		};
+		8656680798656F40B0851B19A1AC8C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Niot";
+			target = AA7C54B494555A9E03F18FE064A5DB6B /* Pods-Niot */;
+			targetProxy = 918BFAEE6403E737943BFBB5847F21E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A8BF95D55604FDA2980B219C26306AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9128F565B113BE76C81AD974A841105 /* Pods-NiotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NiotTests/Pods-NiotTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NiotTests/Pods-NiotTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2965EA81729585B0DEAA01D2616025F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		319B2817D3C0B064E00C668268D1066B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9312A6CDC47AA93E8916087D4E819E4E /* Pods-Niot-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niot-tvOSTests/Pods-Niot-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niot-tvOSTests/Pods-Niot-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BDE05AEC2B8B3B68885977188CDFD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A818D7A9C66EABB717AC42C4E19D4C6 /* Pods-Niot.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niot/Pods-Niot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niot/Pods-Niot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65AFF9CBD41FC5F98D734252F38AB343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C736313C862CC71A49F27EBF5C13443D /* Pods-Niot.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niot/Pods-Niot-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niot/Pods-Niot.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AB48DAFF1F6B2AD738208652E3DB5B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6F4EE0BF0B451DA1B47584E355B5C4 /* Pods-Niot-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niot-tvOS/Pods-Niot-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niot-tvOS/Pods-Niot-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A103C2E893154CBBC8F9480FF4A16320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A2B5A23072D494CE364AA3225B24D0A /* Pods-Niot-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niot-tvOSTests/Pods-Niot-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niot-tvOSTests/Pods-Niot-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B316DEEE852C0F4AE9037B72EE892217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA2808197076D2E8D66A51CBA29F71B /* Pods-Niot-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Niot-tvOS/Pods-Niot-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Niot-tvOS/Pods-Niot-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B53BF661F56BA6250834BDE6B9C99F2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A03603E33F6CEF1599D3F8AC44ABBD /* Pods-NiotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NiotTests/Pods-NiotTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NiotTests/Pods-NiotTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7AB61C6CD11EB24760366A4311C9116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DEC6555804B7746DC613EDECEF4E12 /* Build configuration list for PBXNativeTarget "Pods-Niot-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319B2817D3C0B064E00C668268D1066B /* Debug */,
+				A103C2E893154CBBC8F9480FF4A16320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		280819DD87D51E7A615D12728BC7DAF5 /* Build configuration list for PBXNativeTarget "Pods-NiotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A8BF95D55604FDA2980B219C26306AD /* Debug */,
+				B53BF661F56BA6250834BDE6B9C99F2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2965EA81729585B0DEAA01D2616025F7 /* Debug */,
+				C7AB61C6CD11EB24760366A4311C9116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EE285A655BACB545E7A49A22181DEDD /* Build configuration list for PBXNativeTarget "Pods-Niot-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AB48DAFF1F6B2AD738208652E3DB5B4 /* Debug */,
+				B316DEEE852C0F4AE9037B72EE892217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7202E75F9CC22B5D4E0AFD958245C931 /* Build configuration list for PBXNativeTarget "Pods-Niot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BDE05AEC2B8B3B68885977188CDFD1C /* Debug */,
+				65AFF9CBD41FC5F98D734252F38AB343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

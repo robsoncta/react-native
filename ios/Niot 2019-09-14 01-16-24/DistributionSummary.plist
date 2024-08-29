@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Niot.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>B3E2BC85760D0A2B798445685B60D33204E515C6</string>
+				<key>dateExpires</key>
+				<string>13/09/20</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>B3E2BC85760D0A2B798445685B60D33204E515C6</string>
+						<key>dateExpires</key>
+						<string>13/09/20</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>InputMask.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>272W9Z9AYY</string>
+						<key>name</key>
+						<string>Robson da Costa</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>272W9Z9AYY.com.br.niot</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>272W9Z9AYY</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>272W9Z9AYY.com.br.niot</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Niot.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c02993de-1622-444a-97f6-b0c9bb2af9d3</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>272W9Z9AYY</string>
+				<key>name</key>
+				<string>Robson da Costa</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

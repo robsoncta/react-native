@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "578275292959",
+    "firebase_url": "https://niot-login.firebaseio.com",
+    "project_id": "niot-login",
+    "storage_bucket": "niot-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578275292959:android:cbf74864800d6348",
+        "android_client_info": {
+          "package_name": "com.niot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578275292959-19mc40jcgv8d40tqctc8pd81cm008qs8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.niot",
+            "certificate_hash": "53f282d1a5cd7c7a39898b9b9198eec651d1183b"
+          }
+        },
+        {
+          "client_id": "578275292959-li225oo7mt6h8saseuie5vh4qiniaf59.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnRvZky21me1m6zVlz6rItXZ5E2i1WjcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578275292959-li225oo7mt6h8saseuie5vh4qiniaf59.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
